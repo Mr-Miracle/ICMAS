@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block title %}注册{% endblock %}
+
+{% block content %}
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="row clearfix">
+				<div class="col-md-3 column">
+				</div>
+				<div class="col-md-3 column">
+				</div>
+				<div class="col-md-6 column">
+					<h3 class="text-xl-left" style="color: darkgreen; padding: 20px">
+						 注册您的账户
+					</h3>
+					<form method="post" class="form-horizontal" role="form">
+                        {% csrf_token %}
+                        <div class="form-group">
+							 <label for="id_name" class="col-sm-3 control-label">用户名:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" id="id_Name" required name="id_Name" />
+							</div>
+						</div>
+						<div class="form-group">
+							 <label for="id_Email" class="col-sm-2 control-label">邮箱:</label>
+							<div class="col-sm-8">
+								<input type="email" class="form-control" id="id_Email" required name="id_Email" />
+							</div>
+						</div>
+						<div class="form-group">
+							 <label for="id_Password" class="col-sm-2 control-label">密码:</label>
+							<div class="col-sm-8">
+								<input type="password" class="form-control" id="id_Password" required name="id_Password" />
+							</div>
+						</div>
+                        <div class="form-group">
+							 <label for="id_RePassword" class="col-sm-3 control-label">再次输入:</label>
+							<div class="col-sm-8">
+								<input type="password" class="form-control" id="id_RePassword" required name="id_RePassword" />
+							</div>
+						</div>
+                        <div class="form-group">
+                            <label for="id_Phone" class="col-sm-3 control-label">手机号码：</label>
+                            <div class="col-sm-8">
+						        <input type="text" maxlength="11" minlength="11" class="form-control" id="id_Phone" required name="id_Phone" >
+					        </div>
+				        </div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-8">
+								<div class="checkbox">
+									 <label><input type="checkbox" /><span>我已阅读并同意相关服务条款和隐私政策</span></label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-8">
+								 <button type="submit" class="btn active btn-lg btn-block btn-info">注册</button>
+							</div>
+						</div>
+					</form>
+                    {% if message %}
+							<div class="alert alert-success alert-dismissable col-sm-offset-2 col-sm-8">
+								 <button type="button" class="close" data-dismiss="alert" aria-hidden="false">×</button>
+                                <strong>{{ message }}</strong>
+							</div>
+                    {% endif %}
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

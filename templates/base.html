@@ -1,0 +1,43 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{% block title %}{% endblock %}</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/static/js/bootstrap.js"></script>
+		<!--[if lt IE 9]>
+            <script type="text/javascript" src="/static/js/html5shiv.min.js"></script>
+            <script type="text/javascript" src="/static/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+        <header></header>
+
+		{% block content %}
+
+		{% endblock %}
+
+        <footer >
+            <div class="footer" id="divPageFooter" style="clear: both;padding: 20px 0 20px;font-size: 12px;background: #252222;color: #ececf6;margin:10px auto;text-align:center;line-height:24px;">
+                <div >
+                    <div d="miracle-a">
+                        © 2019 All Rights Reserved&nbsp;&nbsp;<span data-localize="home_lbl_icmas">Miracle</span> <span data-localize="home_lbl_copyright">版权所有</span>&nbsp;&nbsp;沪ICP备20190606号-666
+                    </div>
+                    <div id="miracle-a">
+                        <a href="https://github.com/Mr-Miracle" target="_blank" data-localize="home_lbl_miracle">Miracle</a> <span data-localize="home_lbl_technicalsupport">提供技术支持</span>
+                        &nbsp;&nbsp;<a href="https://github.com/Mr-Miracle/Django_Meeting" target="_blank" data-localize="home_lbl_serviceagreement">源码下载</a>
+                        &nbsp;&nbsp;jihao.lu@qq.com
+                    </div>
+                </div>
+            </div>
+        </footer>
+	</body>
+</html>

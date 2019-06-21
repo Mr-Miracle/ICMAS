@@ -119,4 +119,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/'  # 这里指的是引用指针，不是具体的目录，可以修改为任何名称，但三在html页面中要与之对应
+
+MEDIA_PATH = '/static/images/'     # 图片路径
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
