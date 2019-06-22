@@ -4,6 +4,7 @@ from django.shortcuts import render
 from django.contrib.auth.models import *
 from django.shortcuts import render, redirect
 from home.models import *
+import datetime
 
 
 # 首页
@@ -22,14 +23,14 @@ def register(req):
         id_name = req.POST.get("id_Name")
         # 判断用户输入的邮箱和用户名是否存在
         email = Users.objects.filter(email=id_email)
-        name = Users.objects.filter(username=id_name)
+        name = Users.objects.filter(name=id_name)
         if email and name:
             message = '用户名或者邮箱已经被注册，请重新输入！'
             return render(req, 'register.html', {'message': message})
         else:
             id_password = req.POST.get("id_Password")
             id_phone = req.POST.get("id_Phone")
-            new_user = Users.objects.create(email=id_email, password=id_password, username=id_name, phone=id_phone)
+            new_user = Users.objects.create(email=id_email, password=id_password, name=id_name, phone=id_phone)
             new_User = User.objects.create_user(username=id_name, email=id_email, password=id_password)
             new_user.save()
             new_User.save()
@@ -53,14 +54,15 @@ def login(req):
             # 密码长度验证
             # 更多的其它验证.....
             try:
-                user = Users.objects.get(username=name)
+                user = Users.objects.get(name=name)
             except :
                 message = '用户不存在！'
                 return render(req, 'login.html', {'message': message})
             if user.password == passwd:
                 req.session['is_login'] = True
                 req.session['user'] = name
-                return render(req, 'index.html', {'user': name})
+                Now_time = datetime.datetime.now()
+                return render(req, 'index.html', {'user': name, "Now_time": Now_time})
             else:
                 message = '密码不正确！'
                 return render(req, 'login.html', {'message': message})

@@ -3,6 +3,7 @@ $ python manage.py createsuperuser
 $ python manage.py migrate   # 创建表结构
 $ python manage.py makemigrations   # 让 Django 知道我们在我们的模型有一些变更
 
+$ python manage.py startapp [appname]
 
 startapp
 $ django-admin startapp name [directory]
