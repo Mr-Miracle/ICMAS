@@ -7,6 +7,7 @@
   <title>{% block title %}base{% endblock %}</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico" />
     <link rel="stylesheet" href="{% static 'adminlet/bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/basefooter.css' %}">
   <!-- Font Awesome -->
@@ -50,9 +51,8 @@ desired effect
 
   <!-- Main Header -->
   <header class="main-header">
-
     <!-- Logo -->
-    <a href="#" class="logo">
+    <a href="index.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>智能会务平台</b></span>
       <!-- logo for regular state and mobile devices -->
@@ -99,7 +99,7 @@ desired effect
                 </ul>
                 <!-- /.menu -->
               </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
+              <li class="footer"><a href="#">全部消息</a></li>
             </ul>
           </li>
           <!-- /.messages-menu -->
@@ -124,7 +124,7 @@ desired effect
                   <!-- end notification -->
                 </ul>
               </li>
-              <li class="footer"><a href="#">View all</a></li>
+              <li class="footer"><a href="#">查看全部</a></li>
             </ul>
           </li>
           <!-- Tasks Menu -->
@@ -160,7 +160,7 @@ desired effect
                 </ul>
               </li>
               <li class="footer">
-                <a href="#">View all tasks</a>
+                <a href="#">全部任务</a>
               </li>
             </ul>
           </li>
@@ -180,6 +180,7 @@ desired effect
 
                 <p>
                   {{ request.session.user }}
+                    <small>登录时间：</small>
                   <small>{{ Now_time }}</small>
                 </p>
               </li>
@@ -213,16 +214,22 @@ desired effect
       </div>
     </nav>
   </header>
-
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
-
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="{% static 'adminlet/dist/img/user2-160x160.jpg' %}" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>欢迎您！{{ request.session.user }}</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
+        </div>
+      </div>
 
-
-
-      <!-- search form (Optional) -->
+      <!-- search form (Optional) 定义搜索框-->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Search...">
@@ -236,10 +243,59 @@ desired effect
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">导航栏</li>
+          <li class="header">导航栏</li>
         <!-- Optionally, you can add icons to the links -->
-        <li><a href=""><i class="fa fa-dashboard"></i> <span>仪表盘</span></a></li>
-        <li><a href=""><i class="fa fa-table"></i> <span>会议室管理</span></a></li>
+          <li class="active treeview">
+            <a href="#">
+                <i class="fa fa-dashboard"></i> <span>仪表盘</span>
+                 <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+                </span>
+            </a>
+             <ul class="treeview-menu">
+                 <li><a href="index.html"><i class="fa fa-circle-o"></i> 系统情况</a></li>
+                 <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> 会议情况</a></li>
+            </ul>
+          </li>
+
+          <li class="treeview">
+          <a href="#">
+            <i class="fa fa-table"></i> <span>会议管理</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+              <li><a href="/meeting/add/"><i class="fa fa-circle-o"></i> 基础管理</a></li>
+              <li><a href="#"><i class="fa fa-circle-o"></i> 预定会议</a></li>
+              <li><a href="#"><i class="fa fa-circle-o"></i> 我的预定</a></li>
+              <li><a href="#"><i class="fa fa-circle-o"></i> 我的会议</a></li>
+              <li><a href="#"><i class="fa fa-circle-o"></i> 会议统计</a></li>
+          </ul>
+        </li>
+        <li>
+
+          <li>
+          <a href="pages/calendar.html">
+            <i class="fa fa-calendar"></i> <span>日历</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-red">3</small>
+              <small class="label pull-right bg-blue">17</small>
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="pages/mailbox/mailbox.html">
+            <i class="fa fa-envelope"></i> <span>邮箱</span>
+            <span class="pull-right-container">
+              <small class="label pull-right bg-yellow">12</small>
+              <small class="label pull-right bg-green">16</small>
+              <small class="label pull-right bg-red">5</small>
+            </span>
+          </a>
+        </li>
+
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -270,10 +326,10 @@ desired effect
       </div>
 
       <div id="miracle-a">
-          © 2019 All Rights Reserved&nbsp;&nbsp;<span data-localize="home_lbl_icmas">Miracle</span> <span data-localize="home_lbl_copyright">版权所有</span>&nbsp;&nbsp;沪ICP备20190606号-666
+          © 2019 All Rights Reserved&nbsp;&nbsp;<span >Miracle</span> <span >版权所有</span>&nbsp;&nbsp;沪ICP备20190606号-369
           <div>
             <a href="https://github.com/Mr-Miracle" target="_blank" data-localize="home_lbl_miracle">Miracle</a> <span data-localize="home_lbl_technicalsupport">提供技术支持</span>
-            <a href="https://github.com/Mr-Miracle/Django_Meeting" target="_blank" data-localize="home_lbl_serviceagreement">源码下载</a>jihao.lu@qq.com
+            <a href="https://github.com/Mr-Miracle/Django_Meeting" target="_blank" >源码下载</a>jihao.lu@qq.com
           </div>
       </div>
 
@@ -287,6 +343,9 @@ desired effect
 <script src="{% static 'adminlet/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 <!-- AdminLTE App -->
 <script src="{% static 'adminlet/dist/js/adminlte.min.js' %}"></script>
+<!-- Optionally, you can add Slimscroll and FastClick plugins.
+     Both of these plugins are recommended to enhance the
+     user experience. -->
 
 {% block script %}
 

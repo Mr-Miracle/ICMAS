@@ -47,9 +47,9 @@ def login(req):
         return render(req, 'login.html')
     if req.method == 'POST':
         name = req.POST.get('id_Username')
-        passwd = req.POST.get('id_Password')
+        password = req.POST.get('id_Password')
         message = '用户名或者密码为空！'
-        if name.strip() and passwd:
+        if name.strip() and password:
             # 用户名字符合法性验证
             # 密码长度验证
             # 更多的其它验证.....
@@ -58,7 +58,7 @@ def login(req):
             except :
                 message = '用户不存在！'
                 return render(req, 'login.html', {'message': message})
-            if user.password == passwd:
+            if user.password == password:
                 req.session['is_login'] = True
                 req.session['user'] = name
                 Now_time = datetime.datetime.now()

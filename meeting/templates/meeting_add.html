@@ -1,11 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h4>会议所增加</h4>
+{% extends "indexbase.html" %}
+{% load staticfiles %}
+{% block title %}基础维护{% endblock %}
 
-</body>
-</html>
+{% block css %}{% endblock %}
+
+{% block breadcrumb %}
+<!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        会议室管理
+        <small>assets list</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> 系统管理</a></li>
+        <li class="active">会议室管理</li>
+      </ol>
+    </section>
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+
+{% block script %}
+{% endblock %}
