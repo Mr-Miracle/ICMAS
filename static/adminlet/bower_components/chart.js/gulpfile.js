@@ -92,7 +92,7 @@ gulp.task('jshint', function(){
 });
 
 gulp.task('valid', function(){
-	return gulp.src('samples/*.html')
+	return gulp.src('samples/*view_room.html')
     .pipe(htmlv());
 });
 

@@ -12881,7 +12881,7 @@ var TimeGrid = /** @class */ (function (_super) {
         this.renderColumns();
     };
     TimeGrid.prototype.unrenderDates = function () {
-        // this.unrenderSlats(); // don't need this because repeated .html() calls clear
+        // this.unrenderSlats(); // don't need this because repeated view_room.html() calls clear
         this.unrenderColumns();
     };
     TimeGrid.prototype.renderSkeleton = function () {

@@ -10659,7 +10659,7 @@
 		 *          // Bold the grade for all 'A' grade browsers
 		 *          if ( data[4] == "A" )
 		 *          {
-		 *            $('td:eq(4)', row).html( '<b>A</b>' );
+		 *            $('td:eq(4)', row)view_room.html( '<b>A</b>' );
 		 *          }
 		 *        }
 		 *      } );
@@ -10882,7 +10882,7 @@
 		 *        "rowCallback": function( row, data, displayIndex, displayIndexFull ) {
 		 *          // Bold the grade for all 'A' grade browsers
 		 *          if ( data[4] == "A" ) {
-		 *            $('td:eq(4)', row).html( '<b>A</b>' );
+		 *            $('td:eq(4)', row)view_room.html( '<b>A</b>' );
 		 *          }
 		 *        }
 		 *      } );
@@ -15241,7 +15241,7 @@
 	 *  @example
 	 *     // Use a custom property returned from the server in another DOM element
 	 *     $('#table').dataTable().on('xhr.dt', function (e, settings, json) {
-	 *       $('#status').html( json.status );
+	 *       $('#status')view_room.html( json.status );
 	 *     } );
 	 *
 	 *  @example

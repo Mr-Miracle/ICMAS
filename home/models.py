@@ -3,6 +3,19 @@ from django.db import models
 # Create your models here.
 
 
+# 组织信息
+class Corp(models.Model):
+    code = models.CharField(max_length=50)
+    name = models.CharField(max_length=50)
+    place = models.CharField(max_length=50)
+    create_date = models.DateTimeField(auto_now_add=True)
+    modify_date = models.DateTimeField(auto_now_add=True)
+
+    def __unicode__(self):
+        return self.name
+
+
+# 用户信息
 class Users(models.Model):
     code = models.CharField(max_length=50, primary_key=True)
     email = models.CharField(max_length=50)

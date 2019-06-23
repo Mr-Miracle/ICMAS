@@ -259,7 +259,7 @@ module.exports = function (grunt) { // jshint ignore:line
       options: {
         relaxerror: ['W005']
       },
-      files  : ['pages/**/*.html', '*.html']
+      files  : ['pages/**/*view_room.html', '*.html']
     },
 
     // Delete images in build directory

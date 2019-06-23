@@ -25,6 +25,10 @@ urlpatterns = [
     path('register/', views.register),
     path('login/', views.login),
     path('logout/', views.logout),
-    path('meeting/add/', m_views.view_room),
+    # 会议相关的路由
+    path('meeting/view_room/', m_views.view_room),
+    path('meeting/add/', m_views.add),
+    path('meeting/delete/', m_views.delete),
+    path('meeting/modify/', m_views.modify),
 
 ]
