@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50df362a-47cf-4fe5-af7b-a0aaae838086" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meeting/templates/view_room.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICMAS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICMAS/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meeting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meeting/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meeting/templates/meeting_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meeting/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meeting/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meeting/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meeting/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/bootstrap/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/bootstrap/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/bootstrap/grunt/change-version.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/bootstrap/grunt/change-version.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/chart.js/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/chart.js/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/ckeditor/plugins/devtools/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/ckeditor/plugins/devtools/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/datatables.net/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/datatables.net/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/fullcalendar/dist/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/fullcalendar/dist/fullcalendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminlet/bower_components/select2/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminlet/bower_components/select2/Gruntfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/indexbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexbase.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,20 +47,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/meeting/templates/view_room.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meeting/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/indexbase.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4556">
-              <caret line="268" column="45" selection-start-line="268" selection-start-column="45" selection-end-line="268" selection-end-column="45" />
+            <state relative-caret-position="209">
+              <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -113,13 +102,13 @@
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/home/models.py" />
-        <option value="$PROJECT_DIR$/meeting/views.py" />
         <option value="$PROJECT_DIR$/meeting/urls.py" />
         <option value="$PROJECT_DIR$/ICMAS/urls.py" />
         <option value="$PROJECT_DIR$/meeting/templates/meeting_add.html" />
-        <option value="$PROJECT_DIR$/templates/indexbase.html" />
         <option value="$PROJECT_DIR$/meeting/models.py" />
         <option value="$PROJECT_DIR$/meeting/templates/view_room.html" />
+        <option value="$PROJECT_DIR$/meeting/views.py" />
+        <option value="$PROJECT_DIR$/templates/indexbase.html" />
       </list>
     </option>
   </component>
@@ -131,10 +120,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="52" />
+    <option name="x" value="150" />
+    <option name="y" value="27" />
     <option name="width" value="1654" />
-    <option name="height" value="1028" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -144,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,19 +154,12 @@
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
-              <item name="meeting" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +236,8 @@
       <workItem from="1561213736575" duration="462000" />
       <workItem from="1561214216115" duration="90000" />
       <workItem from="1561214319007" duration="6140000" />
-      <workItem from="1561254037510" duration="9403000" />
+      <workItem from="1561254037510" duration="9540000" />
+      <workItem from="1561291852529" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561132140903</created>
@@ -318,11 +302,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561260563454</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改了meeting 的 APP 逻辑结构。&#10;新增了日历、邮件等导航内容。">
+      <created>1561266347798</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561266347798</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;meeting/models.py&#10;#&#9;meeting/views.py">
+      <created>1561266436359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561266436359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20776000" />
+    <option name="totallyTimeSpent" value="21162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,9 +332,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="52" width="1654" height="1028" extended-state="0" />
+    <frame x="150" y="27" width="1654" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689441" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49813664" visible="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32951945" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50186336" side_tool="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49875775" weight="0.32887402" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
+      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4993789" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32956687" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" weight="0.32956687" />
+      <window_info anchor="right" id="Database" order="6" weight="0.14906833" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16708075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -361,32 +385,6 @@
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.32956687" />
       <window_info anchor="right" id="Database" order="6" weight="0.14906833" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16521738" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49905837" visible="true" weight="0.32887402" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32951945" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50062114" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49875775" weight="0.32887402" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
-      <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4993789" weight="0.32998884" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32956687" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" id="R Packages" order="5" weight="0.32956687" />
-      <window_info anchor="right" id="Database" order="6" weight="0.14906833" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +396,9 @@
     <MESSAGE value="网页架构完成，页面样式调整完成。" />
     <MESSAGE value="新增了meeting 的 APP" />
     <MESSAGE value="修改了meeting 的 APP 逻辑结构。&#10;新增了日历、邮件等导航内容。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了meeting 的 APP 逻辑结构。&#10;新增了日历、邮件等导航内容。" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;meeting/models.py&#10;#&#9;meeting/views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;meeting/models.py&#10;#&#9;meeting/views.py" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -575,19 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meeting/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meeting/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ICMAS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -597,6 +584,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/templates/view_room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/meeting/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -608,17 +608,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/indexbase.html">
+    <entry file="file://$PROJECT_DIR$/meeting/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4556">
-          <caret line="268" column="45" selection-start-line="268" selection-start-column="45" selection-end-line="268" selection-end-column="45" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meeting/templates/view_room.html">
+    <entry file="file://$PROJECT_DIR$/templates/indexbase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="331" column="56" selection-start-line="331" selection-start-column="56" selection-end-line="331" selection-end-column="56" />
         </state>
       </provider>
     </entry>

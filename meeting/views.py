@@ -5,7 +5,6 @@ from meeting.models import *
 
 def view_room(req):
     if req.session.get('user'):
-<<<<<<< HEAD
         return render(req, 'view_room.html')
     return redirect('/login/')
 
@@ -22,8 +21,3 @@ def delete(req):
     pass
 
 
-
-=======
-        return render(req, 'meeting_add.html')
-    return redirect('/login/')
->>>>>>> origin/master
