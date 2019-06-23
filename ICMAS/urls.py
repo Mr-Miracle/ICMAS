@@ -14,9 +14,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from home import views
-from meeting import views as m_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,10 +24,10 @@ urlpatterns = [
     path('register/', views.register),
     path('login/', views.login),
     path('logout/', views.logout),
-    # 会议相关的路由
-    path('meeting/view_room/', m_views.view_room),
-    path('meeting/add/', m_views.add),
-    path('meeting/delete/', m_views.delete),
-    path('meeting/modify/', m_views.modify),
 
+    # 邮件、日历相关的路由
+    path('home/', include('home.urls')),
+
+    # 会议相关的路由
+    path('meeting/', include('meeting.urls')),
 ]

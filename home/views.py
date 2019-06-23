@@ -75,3 +75,15 @@ def login(req):
 def logout(req):
     req.session.flush()
     return redirect('/login')
+
+
+# 日历
+def calendar(req):
+    if req.session.get('user'):
+        return render(req, 'calendar.html')
+    return redirect('/login/')
+
+
+# 邮箱
+def mailbox(req):
+    pass
