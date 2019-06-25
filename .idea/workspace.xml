@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50df362a-47cf-4fe5-af7b-a0aaae838086" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/miracle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/miracle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/mailbox/compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/mailbox/mailbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/mailbox/read-mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/页面模板.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ICMAS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ICMAS/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meeting/templates/view_room.html" beforeDir="false" afterPath="$PROJECT_DIR$/meeting/templates/view_room.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meeting/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meeting/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/indexbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/indexbase.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,49 +53,31 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/indexbase.html">
+        <entry file="file://$PROJECT_DIR$/home/templates/mailbox/compose.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="440" selection-start-line="440" selection-end-line="440" />
+            <state relative-caret-position="-419">
+              <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/adminlet/starter.html">
+        <entry file="file://$PROJECT_DIR$/home/templates/mailbox/mailbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="393" column="18" lean-forward="true" selection-start-line="316" selection-start-column="2" selection-end-line="393" selection-end-column="18" />
+            <state relative-caret-position="182">
+              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="63" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/views.py">
+        <entry file="file://$PROJECT_DIR$/static/adminlet/pages/mailbox/compose.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
+            <state relative-caret-position="2840">
+              <caret line="751" selection-start-line="751" selection-end-line="757" selection-end-column="9" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/adminlet/pages/calendar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1911">
-              <caret line="595" column="8" lean-forward="true" selection-start-line="595" selection-start-column="8" selection-end-line="595" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meeting/templates/view_room.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -107,8 +88,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -138,12 +119,16 @@
         <option value="$PROJECT_DIR$/meeting/models.py" />
         <option value="$PROJECT_DIR$/meeting/views.py" />
         <option value="$PROJECT_DIR$/meeting/urls.py" />
-        <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/ICMAS/urls.py" />
-        <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/templates/calendar.html" />
         <option value="$PROJECT_DIR$/meeting/templates/view_room.html" />
+        <option value="$PROJECT_DIR$/页面模板.html" />
+        <option value="$PROJECT_DIR$/home/templates/mailbox/read-mail.html" />
         <option value="$PROJECT_DIR$/templates/indexbase.html" />
+        <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/home/urls.py" />
+        <option value="$PROJECT_DIR$/home/templates/mailbox/mailbox.html" />
+        <option value="$PROJECT_DIR$/home/templates/mailbox/compose.html" />
       </list>
     </option>
   </component>
@@ -168,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,30 +168,26 @@
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
-              <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
-              <item name="meeting" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mailbox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="adminlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="adminlet" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +195,6 @@
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="adminlet" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
@@ -234,6 +213,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,7 +223,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -251,6 +231,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home/templates" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/adminlet" />
@@ -311,7 +292,9 @@
       <workItem from="1561214216115" duration="90000" />
       <workItem from="1561214319007" duration="6140000" />
       <workItem from="1561254037510" duration="9540000" />
-      <workItem from="1561291852529" duration="6345000" />
+      <workItem from="1561291852529" duration="6547000" />
+      <workItem from="1561379837168" duration="364000" />
+      <workItem from="1561471050054" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561132140903</created>
@@ -404,11 +387,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561292552734</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="新增了日历日程的页面和逻辑。">
+      <created>1561298316147</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561298316147</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27258000" />
+    <option name="totallyTimeSpent" value="31550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,9 +411,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="150" y="27" width="1654" height="1016" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689441" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17267081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -486,7 +475,8 @@
     <MESSAGE value="修改了meeting 的 APP 逻辑结构。&#10;新增了日历、邮件等导航内容。" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;meeting/models.py&#10;#&#9;meeting/views.py" />
     <MESSAGE value="错误修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="错误修改" />
+    <MESSAGE value="新增了日历日程的页面和逻辑。" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增了日历日程的页面和逻辑。" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -598,13 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ICMAS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://4e69d693-9741-440d-84e2-2a35fa3389ed/schema/ICMASDB/table/django_admin_log">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="947685fa-d1cb-4d6e-af35-4ae683f6f311">
@@ -662,9 +645,7 @@
     <entry file="file://$PROJECT_DIR$/meeting/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/adminlet/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/adminlet/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/static/adminlet/pages/widgets.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -679,29 +660,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/adminlet/pages/calendar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1911">
-          <caret line="595" column="8" lean-forward="true" selection-start-line="595" selection-start-column="8" selection-end-line="595" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meeting/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/adminlet/pages/examples/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -753,24 +707,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meeting/templates/view_room.html">
+    <entry file="file://$PROJECT_DIR$/static/adminlet/pages/calendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="803">
+          <caret line="595" column="8" selection-start-line="595" selection-start-column="8" selection-end-line="595" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/adminlet/starter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="393" column="18" lean-forward="true" selection-start-line="316" selection-start-column="2" selection-end-line="393" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ICMAS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meeting/templates/view_room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/页面模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="true" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/read-mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/adminlet/pages/mailbox/mailbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="411" column="4" selection-start-line="411" selection-start-column="4" selection-end-line="670" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/indexbase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="440" selection-start-line="440" selection-end-line="440" />
+        <state relative-caret-position="291">
+          <caret line="288" column="40" selection-start-line="288" selection-start-column="40" selection-end-line="288" selection-end-column="40" />
+          <folding>
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/adminlet/pages/mailbox/compose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2840">
+          <caret line="751" selection-start-line="751" selection-end-line="757" selection-end-column="9" />
+          <folding>
+            <element signature="n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/mailbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="63" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/compose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
         </state>
       </provider>
     </entry>

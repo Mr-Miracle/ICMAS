@@ -84,6 +84,22 @@ def calendar(req):
     return redirect('/login/')
 
 
-# 邮箱
+# 收件箱
 def mailbox(req):
-    pass
+    if req.session.get('user'):
+        return render(req, 'mailbox/mailbox.html')
+    return redirect('/login/')
+
+
+# 发邮件
+def compose(req):
+    if req.session.get('user'):
+        return render(req, 'mailbox/compose.html')
+    return redirect('/login/')
+
+
+# 读取邮件
+def read_mail(req):
+    if req.session.get('user'):
+        return render(req, 'mailbox/read-mail.html')
+    return redirect('/login/')
