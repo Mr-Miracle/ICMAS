@@ -27,3 +27,12 @@ class Users(models.Model):
 
     def __unicode__(self):
         return self.name
+
+
+# 邮箱收件箱
+class Mailbox(models.Model):
+    subject = models.CharField(max_length=250)
+    sender = models.CharField(max_length=50)
+    received = models.DateTimeField(max_length=50)
+    create_datetime = models.DateTimeField(auto_now_add=True)
+    modify_datetime = models.DateTimeField(auto_now_add=True)
