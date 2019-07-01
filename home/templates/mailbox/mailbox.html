@@ -1,6 +1,6 @@
 {% extends "indexbase.html" %}
 {% load staticfiles %}
-{% block title %}基础维护{% endblock %}
+{% block title %}企业邮箱{% endblock %}
 
 {% block css %}{% endblock %}
 
@@ -9,7 +9,7 @@
     <section class="content-header">
       <h1>
         我的邮箱
-        <small>13个未读邮件</small>
+        <small>3个未读邮件</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="/index"><i class="fa fa-dashboard"></i> 首页</a></li>
@@ -37,10 +37,10 @@
             <div class="box-body no-padding">
               <ul class="nav nav-pills nav-stacked">
                 <li class="active"><a href="#"><i class="fa fa-inbox"></i> 收件箱
-                  <span class="label label-primary pull-right">12</span></a></li>
+                  <span class="label label-primary pull-right">3</span></a></li>
                 <li><a href="#"><i class="fa fa-envelope-o"></i> 发件箱</a></li>
                 <li><a href="#"><i class="fa fa-file-text-o"></i> 草稿</a></li>
-                <li><a href="#"><i class="fa fa-filter"></i> 垃圾邮件 <span class="label label-warning pull-right">65</span></a>
+                <li><a href="#"><i class="fa fa-filter"></i> 垃圾邮件 <span class="label label-warning pull-right">5</span></a>
                 </li>
                 <li><a href="#"><i class="fa fa-trash-o"></i> 已删除邮件</a></li>
               </ul>
@@ -99,7 +99,7 @@
                 <!-- /.btn-group -->
                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
                 <div class="pull-right">
-                  1-50/200
+                  1-10/20
                   <div class="btn-group">
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
@@ -111,15 +111,17 @@
               <div class="table-responsive mailbox-messages">
                 <table class="table table-hover table-striped">
                   <tbody>
+
                   <tr>
                     <td><input type="checkbox"></td>
                     <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
-                    <td class="mailbox-name"><a href="/mailbox/read-mail">示例邮件</a></td>
-                    <td class="mailbox-subject"><b>‘发件人’</b> - 这里是邮件的主题...
+                    <td class="mailbox-name"><a href="/mailbox/read-mail">{{ sender }}</a></td>
+                    <td class="mailbox-subject"><a href="/mailbox/read-mail">{{ subject }}</a>
                     </td>
                     <td class="mailbox-attachment"></td>
-                    <td class="mailbox-date">5 mins 以前</td>
+                    <td class="mailbox-date"><b>{{ received }} </b> </td>
                   </tr>
+
 
                   </tbody>
                 </table>

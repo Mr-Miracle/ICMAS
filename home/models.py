@@ -11,7 +11,7 @@ class Corp(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     modify_date = models.DateTimeField(auto_now_add=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -25,7 +25,7 @@ class Users(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     modify_date = models.DateTimeField(auto_now_add=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -36,3 +36,6 @@ class Mailbox(models.Model):
     received = models.DateTimeField(max_length=50)
     create_datetime = models.DateTimeField(auto_now_add=True)
     modify_datetime = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name

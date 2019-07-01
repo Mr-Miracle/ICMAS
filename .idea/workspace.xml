@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50df362a-47cf-4fe5-af7b-a0aaae838086" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e69d693-9741-440d-84e2-2a35fa3389ed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e69d693-9741-440d-84e2-2a35fa3389ed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/miracle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/miracle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/GetEmailInbox.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/mailbox/compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mailbox/compose.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/mailbox/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mailbox/mailbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/mailbox/read-mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mailbox/read-mail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meeting/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meeting/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,14 +52,14 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
+            <state relative-caret-position="223">
+              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/home/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -80,8 +80,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+            <state relative-caret-position="512">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/templates/mailbox/mailbox.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
         </entry>
@@ -119,22 +128,23 @@
         <option value="$PROJECT_DIR$/ICMAS/settings.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/meeting/templates/meeting_add.html" />
-        <option value="$PROJECT_DIR$/meeting/models.py" />
         <option value="$PROJECT_DIR$/meeting/views.py" />
         <option value="$PROJECT_DIR$/meeting/urls.py" />
         <option value="$PROJECT_DIR$/ICMAS/urls.py" />
         <option value="$PROJECT_DIR$/meeting/templates/view_room.html" />
         <option value="$PROJECT_DIR$/页面模板.html" />
-        <option value="$PROJECT_DIR$/home/templates/mailbox/read-mail.html" />
         <option value="$PROJECT_DIR$/templates/indexbase.html" />
-        <option value="$PROJECT_DIR$/home/templates/mailbox/compose.html" />
         <option value="$PROJECT_DIR$/home/templates/calendar.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/home/exchangemail.py" />
-        <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/urls.py" />
-        <option value="$PROJECT_DIR$/home/templates/mailbox/mailbox.html" />
+        <option value="$PROJECT_DIR$/home/models.py" />
+        <option value="$PROJECT_DIR$/meeting/models.py" />
+        <option value="$PROJECT_DIR$/home/templates/mailbox/read-mail.html" />
+        <option value="$PROJECT_DIR$/home/templates/mailbox/compose.html" />
+        <option value="$PROJECT_DIR$/home/GetEmailInbox.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/home/templates/mailbox/mailbox.html" />
       </list>
     </option>
   </component>
@@ -185,6 +195,16 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="mailbox" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ICMAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ICMAS" type="462c0819:PsiDirectoryNode" />
+              <item name="meeting" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -197,7 +217,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -271,7 +291,9 @@
       <workItem from="1561379837168" duration="364000" />
       <workItem from="1561471050054" duration="3775000" />
       <workItem from="1561550636080" duration="1115000" />
-      <workItem from="1561770243912" duration="8011000" />
+      <workItem from="1561770243912" duration="9511000" />
+      <workItem from="1561785055727" duration="649000" />
+      <workItem from="1561993048476" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561132140903</created>
@@ -378,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561475222115</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="新增邮箱的内容获取">
+      <created>1561782620148</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1561782620148</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40725000" />
+    <option name="totallyTimeSpent" value="47076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,14 +424,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="150" y="27" width="1654" height="1016" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17826086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18198758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49813664" visible="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627328" visible="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +438,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50186336" side_tool="true" weight="0.32881355" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5037267" side_tool="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49875775" weight="0.32881355" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32951945" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.4993789" weight="0.3299435" />
@@ -462,13 +490,11 @@
     <MESSAGE value="错误修改" />
     <MESSAGE value="新增了日历日程的页面和逻辑。" />
     <MESSAGE value="新增了邮件的页面和逻辑。" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了邮件的页面和逻辑。" />
+    <MESSAGE value="新增邮箱的内容获取" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增邮箱的内容获取" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/home/footer.css" />
     <entry file="file://$PROJECT_DIR$/static/css/home/header.css" />
     <entry file="file://$PROJECT_DIR$/static/css/home/login.css" />
@@ -561,16 +587,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/meeting/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meeting/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meeting/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -671,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/read-mail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/adminlet/pages/mailbox/mailbox.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -696,13 +705,6 @@
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/compose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="90" selection-start-line="64" selection-start-column="90" selection-end-line="64" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -733,15 +735,6 @@
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://4e69d693-9741-440d-84e2-2a35fa3389ed/schema/ICMASDB/table/home_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee6efdcb-06fd-4938-b431-50db8c9f9d77">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -752,56 +745,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/exchangemail.py">
+    <entry file="file://$PROJECT_DIR$/home/exchangemail.py" />
+    <entry file="file://$PROJECT_DIR$/meeting/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="629">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/mailbox.html">
+    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/compose.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="25" column="92" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="das://4e69d693-9741-440d-84e2-2a35fa3389ed/schema/ICMASDB/table/home_mailbox">
+    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/read-mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e69d693-9741-440d-84e2-2a35fa3389ed/schema/ICMASDB/table/home_users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="ee6efdcb-06fd-4938-b431-50db8c9f9d77">
+        <state projectRestartId="8a3e519c-616c-43f0-b3dc-7f50243fb1bf">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
+    <entry file="das://4e69d693-9741-440d-84e2-2a35fa3389ed/schema/ICMASDB/table/home_mailbox">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d235307f-7569-49e8-b611-84d814b5c279">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/GetEmailInbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
+        <state relative-caret-position="223">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mailbox/mailbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
     </entry>

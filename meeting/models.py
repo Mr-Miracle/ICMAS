@@ -11,7 +11,7 @@ class Park(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     modify_date = models.DateTimeField(auto_now_add=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -26,7 +26,7 @@ class Room(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     modify_date = models.DateTimeField(auto_now_add=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
@@ -43,7 +43,7 @@ class Order(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     modify_date = models.DateTimeField(auto_now_add=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return self.name
 
 
