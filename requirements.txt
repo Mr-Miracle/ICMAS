@@ -1,7 +1,7 @@
 urllib3
 pymysql
 exchangelib
-Django==2.2.2
+Django==2.2.20
 mysqlclient==1.4.2.post1
 pytz==2019.1
 sqlparse==0.3.0
